@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.VBox?>
+
+<?import javafx.scene.image.ImageView?>
+<VBox alignment="CENTER" spacing="10.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.spotify.TrackDetailController">
+    <ImageView fx:id="albumCoverImageView" fitWidth="200" fitHeight="200" preserveRatio="true" />
+    <GridPane>
+        <Label text="Name:" GridPane.rowIndex="0" GridPane.columnIndex="0"/>
+        <Label fx:id="nameLabel" GridPane.rowIndex="0" GridPane.columnIndex="1"/>
+        <Label text="Artist:" GridPane.rowIndex="1" GridPane.columnIndex="0"/>
+        <Label fx:id="artistLabel" GridPane.rowIndex="1" GridPane.columnIndex="1"/>
+        <Label text="Album:" GridPane.rowIndex="2" GridPane.columnIndex="0"/>
+        <Label fx:id="albumLabel" GridPane.rowIndex="2" GridPane.columnIndex="1"/>
+        <Label text="Release Date:" GridPane.rowIndex="3" GridPane.columnIndex="0"/>
+        <Label fx:id="releaseDateLabel" GridPane.rowIndex="3" GridPane.columnIndex="1"/>
+        <Label text="Genres:" GridPane.rowIndex="4" GridPane.columnIndex="0"/>
+        <Label fx:id="genresLabel" GridPane.rowIndex="4" GridPane.columnIndex="1"/>
+    </GridPane>
+</VBox>

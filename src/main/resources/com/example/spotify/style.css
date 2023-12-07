@@ -1,0 +1,34 @@
+/* style.css */
+.root {
+    -fx-background-color: #121212; /* Spotify black background */
+}
+
+.label {
+    -fx-text-fill: #1DB954; /* Spotify green text */
+    -fx-font-size: 16px;
+}
+
+.button {
+    -fx-background-color: #1DB954; /* Spotify green buttons */
+    -fx-text-fill: #FFFFFF;
+}
+
+.table-view {
+    -fx-base: #121212;
+    -fx-control-inner-background: #121212;
+    -fx-background-color: #121212;
+    -fx-table-cell-border-color: #1DB954;
+    -fx-table-header-border-color: #1DB954;
+    -fx-text-fill: #1DB954;
+}
+
+.table-row-cell:filled:selected {
+    -fx-background-color: #282828;
+    -fx-text-fill: #1DB954;
+}
+
+.table-view .column-header-background {
+    -fx-background-color: #1DB954;
+}
+
+/* Add other styles as needed */
